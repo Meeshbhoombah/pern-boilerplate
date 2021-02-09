@@ -1,4 +1,11 @@
 # rein-boilerplate
+A baseline boilerplate for generating an decentralized application with React,
+Express, IPFS, and Node.
+
+The app's frontend is built into a single `index.html`, and is served via a
+backend. Smart contracts can be developed seperately and are deployed via 
+Truffle.
+
 ## Table of Contents
 - [Getting Started](#getting-started) - ([Windows](#windows)/[Mac OS](#mac-os))
 - [Installing](#installing)
