@@ -10,11 +10,23 @@ Clone this repository and navigate to its root, then do the following (based on
 your operating systeem):
 
 ### Windows
+#### Chocolatey
 First, download Chocolatey. Follow the instructions [here](https://docs.chocolatey.org/en-us/choco/setup#installing-chocolatey).
 
+#### Node.js
 Then, install the Node.js package.
 ```
 cinst nodejs.install
+```
+
+#### npm
+Confirm that `npm` was installed.
+```
+npm --version
+```
+Your output should look something like:
+```
+7.5.0
 ```
 
 ### Mac OS
@@ -46,14 +58,14 @@ Then, run a fetch for the latest version of Node.js (just in case).
 brew update node
 ```
 
-#### NPM
+#### npm
 Confirm that `npm` was installed.
 ```
 npm --version
 ```
 Your output should look something like:
 ```
-7.5.0    
+7.5.0 
 ```
 
 ### Installing
