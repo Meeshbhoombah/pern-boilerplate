@@ -2,10 +2,19 @@
 
 ## Getting Started
 ### Prerequisites
-- [Homebrew](https://brew.sh/)
+- [Homebrew](https://brew.sh/) (Mac OS) or [Chocolatey](https://docs.chocolatey.org/en-us/) (Windows)
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 
+### Windows
+First, download Chocolatey. Follow the instructions [here](https://docs.chocolatey.org/en-us/choco/setup#installing-chocolatey).
+
+Then, install the Node.js package.
+```
+cinst nodejs.install
+```
+
+### Mac OS
 #### Homebrew
 First, download Homebrew via the Terminal.
 ```
