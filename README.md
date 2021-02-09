@@ -16,6 +16,7 @@ Then, check your system to ensure that Homebrew has installed without problems.
 ```
 brew doctor
 ```
+If not, be sure to follow the fixes that `brew doctor` suggests.
 
 After that, run a fetch for the latest version of Homebrew (just in case).
 ```
@@ -38,13 +39,13 @@ Confirm that NPM was installed.
 ```
 npm --version
 ```
-
 Your output should look something like:
 ```
 7.5.0    
 ```
 
 ### Installing
+Simply run:
 ```
 npm install
 ```
