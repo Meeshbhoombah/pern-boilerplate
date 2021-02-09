@@ -1,4 +1,9 @@
 # pern-boilerplate
+## Table of Contents
+- [Getting Started](#getting-started)
+    + [Windows](#windows)
+    + [Mac OS](#mac-os)
+- [Installing](#installing)
 
 ## Getting Started
 ### Prerequisites
