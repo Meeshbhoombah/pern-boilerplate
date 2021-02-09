@@ -78,8 +78,16 @@ Your output should look something like:
 ```
 
 #### IPFS
+[Use Homebrew to install IPFS.](https://docs.ipfs.io/install/command-line/)
 ```
 brew install ipfs
+```
+
+[Now we need to intalize "the repository,"](https://docs.ipfs.io/how-to/command-line-quick-start/#initialize-the-repository) 
+a directory in which IPFS stores all its settings. Do this in your home 
+directory.
+```
+ipfs init
 ```
 
 ### Installing
