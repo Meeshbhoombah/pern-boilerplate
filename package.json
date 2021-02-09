@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "description": "Gamifying Chores",
   "scripts": {
-    "client::dev": "webpack-dev-server --config webpack.dev.config.js",
-    "server::dev": "nodemon src/server/index.js",
-    "start": "concurrently \"npm run client::dev\" \"npm run server::dev\""
+    "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
+    "server": "nodemon src/server/app.js",
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
     "@babel/core": "^7.1.2",

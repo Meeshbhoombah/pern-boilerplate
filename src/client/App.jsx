@@ -1,3 +1,4 @@
+import IPFS from 'ipfs';
 import React, { Component } from 'react';
 
 
