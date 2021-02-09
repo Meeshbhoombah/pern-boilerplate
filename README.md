@@ -6,6 +6,9 @@
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 
+Clone this repository and navigate to its root, then do the following (based on
+your operating systeem):
+
 ### Windows
 First, download Chocolatey. Follow the instructions [here](https://docs.chocolatey.org/en-us/choco/setup#installing-chocolatey).
 
