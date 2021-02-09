@@ -8,6 +8,7 @@
 - [Homebrew](https://brew.sh/) (Mac OS) or [Chocolatey](https://docs.chocolatey.org/en-us/) (Windows)
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
+- [IPFS](https://ipfs.io/)
 
 Clone this repository and navigate to its root, then do the following (based on
 your operating systeem):
@@ -23,13 +24,18 @@ cinst nodejs.install
 ```
 
 #### npm
-Confirm that `npm` was installed.
+Afterward, confirm that `npm` was installed.
 ```
 npm --version
 ```
 Your output should look something like:
 ```
 7.5.0
+```
+
+#### IPFS
+```
+cinst ipfs
 ```
 
 ### Mac OS
@@ -69,6 +75,11 @@ npm --version
 Your output should look something like:
 ```
 7.5.0 
+```
+
+#### IPFS
+```
+brew install ipfs
 ```
 
 ### Installing
