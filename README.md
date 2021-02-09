@@ -4,7 +4,7 @@
 ### Prerequisites
 - [Homebrew](https://brew.sh/)
 - [Node.js](https://nodejs.org/en/)
-- [NPM](https://www.npmjs.com/)
+- [npm](https://www.npmjs.com/)
 
 #### Homebrew
 First, download Homebrew via the Terminal.
@@ -35,7 +35,7 @@ brew update node
 ```
 
 #### NPM
-Confirm that NPM was installed.
+Confirm that `npm` was installed.
 ```
 npm --version
 ```
@@ -45,7 +45,6 @@ Your output should look something like:
 ```
 
 ### Installing
-Simply run:
 ```
 npm install
 ```
