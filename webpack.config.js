@@ -19,7 +19,6 @@ module.exports = {
           loader: "babel-loader",
           options: {
             presets: ["@babel/preset-env", "@babel/preset-react"],
-            plugins: ["@babel/plugin-proposal-class-properties"]
           },
         },
       },
@@ -42,8 +41,6 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin({outputDirectory}),
-    new HtmlWebpackPlugin({
-      template: "./public/index.html",
-    })
+    new HtmlWebpackPlugin()
   ]
 };
