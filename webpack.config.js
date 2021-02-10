@@ -1,11 +1,11 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CleanWebpackPlugin = require("clean-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 const outputDirectory = "dist";
 
 module.exports = {
-  entry: ["babel-polyfill", "./src/client/index.js"],
+  entry: ["babel-polyfill", "/src/client/index.js"],
   output: {
     path: path.join(__dirname, outputDirectory),
     filename: "bundle.js"
@@ -16,8 +16,12 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
-        }
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env", "@babel/preset-react"],
+            plugins: ["@babel/plugin-proposal-class-properties"]
+          },
+        },
       },
       {
         test: /\.css$/,
@@ -40,7 +44,6 @@ module.exports = {
     new CleanWebpackPlugin({outputDirectory}),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
-      favicon: "./public/favicon.ico"
     })
   ]
 };

@@ -7,29 +7,14 @@
 require('babel-polyfill');
 
 
-import React             from 'react';
-import ReactDOM          from 'react-dom';
-import { AppContainer }  from 'react-hot-loader';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-
-import App from './App';
+import App from './App.jsx';
 // import global css styles to render on #root
 
 
 async function renderApp() {
-  ReactDOM.render(
-    <AppContainer>
-      <App />
-    </AppContainer>,
-    document.getElementById('root')
-  );
+  ReactDOM.render(<App />, document.getElementById('root'));
 };
-
-
-if (module.hot) {
-    module.hot.accept();
-    renderApp();
-} else {
-    renderApp();
-}
 

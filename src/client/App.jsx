@@ -1,5 +1,6 @@
 import IPFS from 'ipfs';
 import React, { Component } from 'react';
+import { hot } from 'hot-module-reloader';
 
 
 class App extends Component {
