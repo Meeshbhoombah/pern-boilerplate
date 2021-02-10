@@ -40,8 +40,15 @@ Your output should look something like:
 ```
 
 #### IPFS
+[Use Chocolatey to install IPFS.](https://docs.ipfs.io/how-to/command-line-quick-start/#initialize-the-repository) 
 ```
 cinst ipfs
+```
+[Now we need to intalize "the repository,"](https://docs.ipfs.io/how-to/command-line-quick-start/#initialize-the-repository) 
+a directory in which IPFS stores all its settings. Do this in your home 
+directory.
+```
+ipfs init
 ```
 
 ### Mac OS
