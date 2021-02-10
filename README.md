@@ -14,7 +14,7 @@ contracts can be deployed via Truffle.
 - [Homebrew](https://brew.sh/) (Mac OS) or [Chocolatey](https://docs.chocolatey.org/en-us/) (Windows)
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
-- [IPFS](https://ipfs.io/)
+- [IPFS](https://docs.ipfs.io/concepts/)
 
 Clone this repository and navigate to its root, then do the following (based on
 your operating systeem):
